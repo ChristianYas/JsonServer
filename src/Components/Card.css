@@ -1,0 +1,89 @@
+.container-card{
+    width: 340px;
+    height: 400px;
+    position: relative;
+    border-radius: 10px;
+    background-color: #fff;
+    margin: 35px;
+    overflow: hidden;
+}
+
+.container-card .header{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.container-img{
+    width: 30%;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+    position: relative;
+    top: -15%;
+    left: 34.9%;
+}
+
+.container-card .person{
+    width: 102px;
+    height: 102px;
+    border-radius: 50%;
+}
+
+.card-text{
+    position: relative;
+    top: -30%;
+    width: 100%;
+    height: 70%;
+}
+
+.about-user{
+    position: absolute;
+    top: 20%;
+    text-align: center;
+    width: 100%;
+}
+
+.about-user p{
+    font-weight: 700;
+    font-size: 21px;
+}
+
+.about-user small{
+    font-weight: 500;
+}
+
+.data-user{
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    left: -21%;
+    bottom: 18%;
+}
+
+.data-user ol{
+    width: 120%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.data-user ol li{
+    font-weight: 600;
+    text-align: center;
+    color: #696969;
+}
+
+.link{
+    width: 15%;
+    position: absolute;
+    top: 5%;
+    left: 80%;
+    cursor: pointer;
+}
+
+.link img{
+    width: 100%;
+}

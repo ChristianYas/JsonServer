@@ -1,0 +1,19 @@
+.article-cards{
+    width: 100vw;
+    position: relative;
+    margin-top: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 20;
+}
+
+.nav{
+    position: relative;
+    top: -29px;
+}
+
+.message{   
+    color: skyblue;
+}

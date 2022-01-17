@@ -1,0 +1,17 @@
+body{
+  background-color: #000;
+  position: relative;
+}
+
+.top{
+  position: absolute;
+  top: -20%;
+  left: -32%;
+  z-index: 10;
+}
+
+.bottom{
+  position: absolute;
+  right: -32%;
+  top: 40%;
+}

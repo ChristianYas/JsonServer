@@ -1,0 +1,43 @@
+header{
+    width: 100vw;
+    height: 90px;
+    position: relative;
+    z-index: 20;
+}
+
+nav{
+    width: 40%;
+    position: absolute;
+    top: 20%;
+    right: -5%;
+}
+
+header h1{
+    position: absolute;
+    top: 8%;
+    left: 5%;
+}
+
+nav ol{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+nav a:hover{
+    color: skyblue;
+}
+
+.active{
+    color: skyblue;
+    border-bottom: 1px solid;
+}

@@ -1,0 +1,69 @@
+.cardUser{
+    width: 30%;
+    height: 29em;
+    position: relative;
+    z-index: 20;
+    color: #fff;
+    border: 2px solid;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    margin: 26px;
+
+}
+
+.cardUser .title-card{
+    width: 100%;
+    height: 30%;
+    position: relative;
+    top: -5.4%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+}
+
+.cardUser .title-card h2{
+    font-weight: 800;
+    letter-spacing: 0.12rem;
+    font-size: 30px;
+    text-transform: uppercase;
+    position: relative;
+    top: 10px;
+}
+
+.cardUser .title-card img{
+    position: relative;
+    top: 4px;
+    left: 3px;
+    width: 20%;
+}
+
+.cardUser .about-work h3{
+    margin: 15px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.cardUser .about-work p{
+    font-size: 22px;
+    font-weight: 500;
+    margin: 15px;
+}
+
+.cardUser .about-work small{
+    position: relative;
+    top: 60px;
+    left: 300px;
+    margin: 20px;
+    font-weight: 500;
+}
+
+.remove{
+    position: absolute;
+    margin-left: 10px;
+}
+
+.remove img{
+    width: 15%;
+    cursor: pointer;
+}

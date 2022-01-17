@@ -1,0 +1,17 @@
+.container-home{
+    width: 98vw;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-c{
+    position: relative;
+    top: 5px;
+}
+
+.message{
+    text-transform: uppercase;
+}
